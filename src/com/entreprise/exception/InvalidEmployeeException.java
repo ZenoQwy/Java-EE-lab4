@@ -1,4 +1,7 @@
 package com.entreprise.exception;
 
-public class InvalidEmployeeExecption {
+public class InvalidEmployeeException extends Exception {
+    public InvalidEmployeeException(String message) {
+        super(message);
+    }
 }
